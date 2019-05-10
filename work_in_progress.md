@@ -8,9 +8,9 @@ Since we are facing several problems in setting up **the Monster**, it might be 
 
 ### 10-05-2019, Marco
 
-Following this [demo video](https://easybuild.readthedocs.io/en/latest/demos/bootstrapping.html#demo-bootstrapping):
+Following this [vide demo](https://easybuild.readthedocs.io/en/latest/demos/bootstrapping.html#demo-bootstrapping):
 
-1. installed *pip install* ([from here](https://pip.pypa.io/en/stable/installing/))
+1. installed *pip install* from ([here](https://pip.pypa.io/en/stable/installing/))
 
 2. *step 1* installs by default `setuptools` then upgraded manually to the latest version via `sudo pip install setuptools --upgrade`
 
@@ -22,4 +22,4 @@ Following this [demo video](https://easybuild.readthedocs.io/en/latest/demos/boo
 
 ### 09-05-2019, Remi & Marco
 
-1. NVDIA graphic card driver installation following [this steps](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/)
+1. NVDIA graphic card driver installation following this [blog post](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/)
