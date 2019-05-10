@@ -6,5 +6,5 @@ This repo is about script and resources to maintain the room-D324 computer calle
 
 _1. Specs_
 
-_2. Installation_
+_2. Installed software_
 
