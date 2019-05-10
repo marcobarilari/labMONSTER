@@ -18,3 +18,8 @@ Following this [demo video](https://easybuild.readthedocs.io/en/latest/demos/boo
 * `vsc-base` via `sudo pip install vsc-base`
 * `vsc-install` via `sudo pip install vsc-install`
 
+## Computer frozen & graphic problem 
+
+### 09-05-2019, Remi & Marco
+
+1. NVDIA graphic card driver installation following [this steps](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/)
