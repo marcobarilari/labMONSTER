@@ -18,7 +18,7 @@ Following this [vide demo](https://easybuild.readthedocs.io/en/latest/demos/boot
 * `vsc-base` via `sudo pip install vsc-base`
 * `vsc-install` via `sudo pip install vsc-install`
 
-4. trying to install `Lmod` as nodule tools, see [here - github repo](https://github.com/TACC/Lmod ) and [here - dev site?](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod)                               
+4. trying to install `Lmod` as nodule tools, see [here - github repo](https://github.com/TACC/Lmod ) and [here - dev site](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) and [here - Lmod documentation](https://lmod.readthedocs.io/en/latest/030_installing.html)
 
 ## Computer frozen & graphic problem 
 
