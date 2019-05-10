@@ -4,7 +4,7 @@ This readme has the purpose to share at which stage is a specific action (e.g., 
 
 Since we are facing several problems in setting up **the Monster**, it might be good to save _'check points'_ of each specific process going on in several days ~~aka trial and error~~.
 
-## * EasyBuild installation 
+## EasyBuild installation 
 
 ### 10-05-2019, Marco
 
