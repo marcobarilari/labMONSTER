@@ -18,8 +18,12 @@ Following this [vide demo](https://easybuild.readthedocs.io/en/latest/demos/boot
 * `vsc-base` via `sudo pip install vsc-base`
 * `vsc-install` via `sudo pip install vsc-install`
 
+4. trying to install `Lmod` as nodule tools, see [here - github repo](https://github.com/TACC/Lmod ) and [here - dev site?](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod)                               
+
 ## Computer frozen & graphic problem 
 
 ### 09-05-2019, Remi & Marco
 
-1. NVDIA graphic card driver installation following this [blog post](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/)
+1. NVIDIA graphic card driver installation following this [blog post](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/)
+
+2. Cross your fingers and hope the issue is solved
