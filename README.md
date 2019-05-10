@@ -8,3 +8,5 @@ _1. Specs_
 
 _2. Installed software_
 
+* [EasyBuild](https://easybuild.readthedocs.io/en/latest/index.html) (in progress)
+* Python 2.7.5
