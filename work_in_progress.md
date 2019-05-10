@@ -1,4 +1,4 @@
-# **Readme file to update on workin in progress state of the art of the machine**
+# **Readme file to update on the workin in progress state of the art of the machine**
 
 This readme has the purpose to share at which stage is a specific action (e.g., software installation, maintenance, etc.).
 
