@@ -10,7 +10,7 @@ Since we are facing several problems in setting up **the MONSTER**, it might be 
 
 Following this [video demo](https://easybuild.readthedocs.io/en/latest/demos/bootstrapping.html#demo-bootstrapping):
 
-1. installed *pip install* from [here](https://pip.pypa.io/en/stable/installing/)
+1. installed `pip install` from [here](https://pip.pypa.io/en/stable/installing/)
 
 2. *step 1* installed by default `setuptools` then upgraded manually to the latest version via `sudo pip install setuptools --upgrade`
 
