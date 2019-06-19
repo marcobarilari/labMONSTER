@@ -9,4 +9,5 @@ _1. Specs_
 _2. Installed software_
 
 * [EasyBuild](https://easybuild.readthedocs.io/en/latest/index.html) (in progress)
+* Matlab 2017a - copy `/usr/local/MATLAB/R2017a/matlab` on the terminal to open it
 * Python 2.7.5
