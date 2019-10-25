@@ -2,11 +2,24 @@
 
 This repo is about script and resources to maintain the room-D324 computer called **'the MONSTER'**
 
-**Sections:**
+## Specs
 
-_1. Specs_
+## Installed software
 
-_2. Installed software_
+*   [EasyBuild](https://easybuild.readthedocs.io/en/latest/index.html) (in progress)
+*   Python 2.7.5
+*   gitkraken
+*   git annex
+*   atom (available for all users?)
+*   docker (available for all users?)
+*   anaconda (available for all users?)
+*   chrome (available for all users?)
 
-* [EasyBuild](https://easybuild.readthedocs.io/en/latest/index.html) (in progress)
-* Python 2.7.5
+## Software to install
+
+*   Dropbox
+*   Latex
+*   Pandoc
+*   MIPAV and CBS tools (for all users)
+*   zotero
+*   datalad
