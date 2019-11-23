@@ -4,7 +4,7 @@ This readme has the purpose to share at which stage is a specific action (e.g., 
 
 Since we are facing several problems in setting up **the MONSTER**, it might be good to save _'check points'_ of each specific process going on ~~aka trial and errors~~ in several days .
 
-## EasyBuild installation 
+## EasyBuild installation
 
 ### 10-05-2019, Marco
 
@@ -20,12 +20,17 @@ Following this [video demo](https://easybuild.readthedocs.io/en/latest/demos/boo
 
 4. trying to install `Lmod` as module tools, see [here - github repo](https://github.com/TACC/Lmod ) and [here - dev site](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) and [here - Lmod documentation](https://lmod.readthedocs.io/en/latest/030_installing.html)
 
-- problems with paths while installing the `Lua` module required by `Lmod` 
+## Computer frozen & graphic problem
 
-## Computer frozen & graphic problems 
 
 ### 09-05-2019, Remi & Marco
 
 1. NVIDIA graphic card driver installed following this [blog post](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/)
 
-2. Fingers crossed and hope the issue is solved
+2. Cross your fingers and hope the issue is solved
+
+
+### Matlab issues
+
+- created an alias to easily start from command line
+- fix a centOS related issue when plotting figures
