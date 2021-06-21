@@ -17,14 +17,37 @@ conda deactivate
 1. create a virtual environment with `virtualenv` to use datalad (highly suggested for each software running under python)
 
 ```bash
-# make sure you have `virtualenv` installed
+# make sure you have `virtualenv` installed, if not install it via pip
+virtualenv --version
+
+# make sure you are in ~ and create the virtual environment folder
+cd ~
 virtualenv datalad
- source datalad/bin/activate
-conda install -c conda-forge datalad
+
+# and activate it
+source datalad/bin/activate
+
+# you should see something like this in your terminal
+# (datalad) (base) [marcobar@0013 ~]$
 ```
-git config --global --add user.name "marcobarilari"
-git config --global --add user.email "marcobarilr@gmail.com"
-ssh-keygen -t rsa -b 4096 -C "marcobarilr@gmail.com"
+
+2. Datalad installation and configuration (from the [datalad handbook](https://handbook.datalad.org/en/latest/intro/installation.html)) + [GIN](https://gin.g-node.org/) configuration
+
+```bash
+# install datalad
+conda install -c conda-forge datalad
+
+# configure your git account
+git config --global --add user.name "your-username"
+git config --global --add user.email "your-email@example.com"
+
+# generate the ssh key to interact with gin
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+# retrieve the ssh key to be set on the gin website preferences
+# copy the output and add it to the keys in gin (gin.g-node.org>your settings>SSH Keys>add key>etc.)
+cat ~/.ssh/id_rsa.pub
+
+# if the last command does not work, navigate to the folder and look hoe the *.pub file has been called
 cd ~/.ssh/
 ls
-cat ~/.ssh/id_rsa.pub
+# etc.
