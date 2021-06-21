@@ -1,30 +1,27 @@
 ## Install and set up Datalad
 
-1. Install python 3
+>DISCLAIMER: if some steps are not working, try to close and open the terminal again
 
-cd /opt
-sudo wget https://www.python.org/ftp/python/3.8.7/Python-3.8.7.tgz
+0. (if necessary) Install Miniconda, this should take care of installing pythin as well
 
-sudo tar xzf Python-3.8.7.tgz
-cd Python-3.8.7
-sudo ./configure --enable-optimizations
-sudo make altinstall
-python3.8 -V
- cd /opt
-sudo rm -f Python-3.8.7.tgz
+see here [Install Miniconda on CentOS 7 / RedHat 7](https://deeplearning.lipingyang.org/2018/12/24/install-miniconda-on-centos-7-redhat-7/)
 
+nb:
 
-cd ~
-
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
-conda -V
+```bash
+# snippet code to de/activate the conda environment
 conda actiavate
+conda deactivate
+```
 
+1. create a virtual environment with `virtualenv` to use datalad (highly suggested for each software running under python)
+
+```bash
+# make sure you have `virtualenv` installed
 virtualenv datalad
  source datalad/bin/activate
 conda install -c conda-forge datalad
-
+```
 git config --global --add user.name "marcobarilari"
 git config --global --add user.email "marcobarilr@gmail.com"
 ssh-keygen -t rsa -b 4096 -C "marcobarilr@gmail.com"
