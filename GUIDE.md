@@ -1,4 +1,4 @@
-## Install and set up Datalad
+## Install and set up Datalad and GIN
 
 >DISCLAIMER: if some steps are not working, try to close and open the terminal again
 
@@ -51,3 +51,13 @@ cat ~/.ssh/id_rsa.pub
 cd ~/.ssh/
 ls
 # etc.
+```
+
+3. You should be ready to clone/get/push data on GIN using dataldad
+
+try to clone any repo on GIN
+```
+datalad clone URL
+```
+
+when you are done, type `deactivate` to close the virtual environment session
