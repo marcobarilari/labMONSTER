@@ -1,6 +1,6 @@
-# Using `screen` to run commands/script on the back ground
+## Using `screen` to run commands/script on the back ground
 
-`screen` allows, banally, to run a command and then close the remote connection while keppeing the monster working for you.
+`screen` allows, banally, to run a command and then close the remote connection while keeping the monster working for you.
 
  - create a screen session
 
@@ -26,3 +26,11 @@
  ```bash
  exit
  ```
+
+## Exchange files from and to remote
+
+- move around a directory recursively (in the example, from the labMonster to local computer)
+
+```bash
+scp -r user@ssh.example.com:/path/to/remote/source /path/to/local/destination
+```
