@@ -10,7 +10,7 @@ nb:
 
 ```bash
 # snippet code to de/activate the conda environment
-conda actiavate
+conda activate
 conda deactivate
 ```
 
