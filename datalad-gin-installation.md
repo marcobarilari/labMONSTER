@@ -44,7 +44,7 @@ git config --global --add user.email "your-email@example.com"
 # generate the ssh key to interact with gin
 ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
 # retrieve the ssh key to be set on the gin website preferences
-# copy the output and add it to the keys in gin (gin.g-node.org>your settings>SSH Keys>add key>etc.)
+# copy the output of the next command and add it to the keys in gin (gin.g-node.org>your settings>SSH Keys>add key>etc.)
 cat ~/.ssh/id_rsa.pub
 
 # if the last command does not work, navigate to the folder and look hoe the *.pub file has been called
