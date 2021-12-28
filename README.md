@@ -14,7 +14,7 @@ This repo is about script and resources to maintain the room-D324 computer calle
 *   docker - available for all users
 *   anaconda (available for all users?)
 *   chrome (available for all users?)
-*   freesurfer - available for all users at `usr/local/freesurfer/7.2.0-1`
+*   freesurfer - available for all users at `/usr/local/freesurfer/7.2.0-1`
 
 ## Software to install
 
