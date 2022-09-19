@@ -56,6 +56,15 @@ to upgrade the list of software insstall via `apt` use `sudo apt-get upgrade`
 
 * FSL
 
+in `.baschrc`
+```bash
+#FSL
+FSLDIR=/usr/local/fsl
+. ${FSLDIR}/etc/fslconf/fsl.sh
+PATH=${FSLDIR}/bin:${PATH}
+export FSLDIR PATH
+```
+
 * matlab, open the GUI with `/usr/local/MATLAB/R2017a/bin/matlab` - TO CHECK if available for all users
 
 
