@@ -64,15 +64,15 @@ FSLDIR=/usr/local/fsl
 PATH=${FSLDIR}/bin:${PATH}
 export FSLDIR PATH
 ```
+open gui with `fsl` in the terminal
+
+* fsleyes via conda
+
+open gui with `fsleyes` in the terminal, if installed via conda you need to activate it first
 
 * matlab, open the GUI with `/usr/local/MATLAB/R2017a/bin/matlab` - TO CHECK if available for all users
 
-
-
 ### to do
 * freesurfer - available for all users at `/usr/local/freesurfer/7.2.0-1`
-* FSL
 * datalad
-* git annex
 * ITK snap
-
