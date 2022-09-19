@@ -2,6 +2,8 @@
 
 This repo is about script and resources to maintain the room-D324 computer called **'the MONSTER'**
 
+This machine runs UBUNTU (swithced from centOS on the 19th september 2022)
+
 ## Specs
 
 ## Installed software
