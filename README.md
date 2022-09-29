@@ -52,9 +52,12 @@ If ayou are a new user and don't want to use 'sudo' everytime you call a `docker
 - conda via miniconda - each user has to install it indipendently (see here [miniconda installer](https://docs.conda.io/en/latest/miniconda.html))
 - FSL - TO CHECK if available for all users
 - fsleyes via conda - each user has to install it indipendently
-- matlab 2017a - TO CHECK if available for all users
+- matlab 2017a - TO CHECK if available for all users (tools eg spm12 should be installed by each user)
 - rstudio - TO CHECK if available for all users
 - afni - each user has to install it indipendently (most of missing libraries should be installed for everyone so now should be easier)
+- freesurfer - available for all users
+- datalad - each user has to install it indipendently via `pip install`
+- itksnap - available for all users
 
 [ TIPS :bulb: ]
 
@@ -99,10 +102,17 @@ testing ability to start various programs...
     3dClustSim           : success
     3dMVM                : success
 ```
+6. set up freesurfer by adding this in `~/.bashrc` and then take care to have license somewhere
 
+```bash
+export FREESURFER_HOME=/usr/local/freesurfer/7.3.2/
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+```
 
+7. itksanp run this in the terminal to call the app via terminal with `itksnap`
+
+```bash
+export PATH=$PATH:/usr/local/itksnap-3.8.0-20190612-Linux-gcc64/bin
+```
 
 ### to do
-* freesurfer - available for all users at `/usr/local/freesurfer/7.2.0-1`
-* datalad
-* ITK snap
