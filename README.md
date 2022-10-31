@@ -45,23 +45,23 @@ If ayou are a new user and don't want to use 'sudo' everytime you call a `docker
 2. to upgrade the list of software installed via `apt` use `sudo apt-get upgrade`
 
 
-### Install manually
+### Installed manually
 
 - chrome - TO CHECK if available for all users
 - dropbox - TO CHECK if available for all users
 - conda via miniconda - each user has to install it indipendently (see here [miniconda installer](https://docs.conda.io/en/latest/miniconda.html))
-- FSL - TO CHECK if available for all users
-- fsleyes via conda - each user has to install it indipendently
-- matlab 2017a - TO CHECK if available for all users (tools eg spm12 should be installed by each user)
 - rstudio - TO CHECK if available for all users
-- afni - each user has to install it indipendently (most of missing libraries should be installed for everyone so now should be easier)
-- freesurfer - available for all users
 - datalad - each user has to install it indipendently via `pip install`
-- itksnap - available for all users
+
+#### FSL
+
+fsleyes via conda - each user has to install it indipendently
+
+TO CHECK if available for all users
 
 [ TIPS :bulb: ]
 
-1. add this in in `~/.baschrc` to help FSL being more reachable
+- add this in in `~/.baschrc` to help FSL being more reachable
 
 ```bash
 #FSL
@@ -71,18 +71,29 @@ PATH=${FSLDIR}/bin:${PATH}
 export FSLDIR PATH
 ```
 
-2. open FSL gui using `fsl` in the terminal
+- open FSL gui using `fsl` in the terminal
 
+- open fsleyes gui using `fsleyes` in the terminal, if installed via conda you need to activate it first via `conda activate`
 
-3. open fsleyes gui using `fsleyes` in the terminal, if installed via conda you need to activate it first via `conda activate`
+#### MATLAB 2017a
 
-4. open matlab gui using `/usr/local/MATLAB/R2017a/bin/matlab` in the terminal, to be faster add an aliasia in the `~/.bashrc` file
+TO CHECK if available for all users (tools eg spm12 should be installed by each user)
+
+[ TIPS :bulb: ]
+
+- open matlab gui using `/usr/local/MATLAB/R2017a/bin/matlab` in the terminal, to be faster add an aliasia in the `~/.bashrc` file
 
 ```bash
 alias matlab=/usr/local/MATLAB/R2017a/bin/matlab
 ```
 
-5. afni setup is not 100% done since we are missing some libraries as `libGLw.so.1` and `libgsl.so.19`
+#### AFNI
+
+each user has to install it indipendently (most of missing libraries should be installed for everyone so now should be easier)
+
+[ TIPS :bulb: ]
+
+- afni setup is not 100% done since we are missing some libraries as `libGLw.so.1` and `libgsl.so.19`
 
 from running 'afni_system_check.py -check_all':
 
@@ -102,14 +113,24 @@ testing ability to start various programs...
     3dClustSim           : success
     3dMVM                : success
 ```
-6. set up freesurfer by adding this in `~/.bashrc` and then take care to have license somewhere
+
+#### freesurfer
+
+available for all users
+
+[ TIPS :bulb: ]
+
+- set up freesurfer by adding this in `~/.bashrc` and then take care to have license somewhere
 
 ```bash
 export FREESURFER_HOME=/usr/local/freesurfer/7.3.2/
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 ```
+#### itksanp
 
-7. itksanp run this in the terminal to call the app via terminal with `itksnap`
+available for all users
+
+- run this in the terminal to call the app via terminal with `itksnap`
 
 ```bash
 export PATH=$PATH:/usr/local/itksnap-3.8.0-20190612-Linux-gcc64/bin
