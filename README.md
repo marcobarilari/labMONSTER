@@ -16,11 +16,19 @@ It has two main Volumes:
 
 ## FAQ 
 
+### How can I connect remotely?
+
+Ask Marco
+
+### I can't connect remotely
+
+Are you in the UCLouvain network or using aVPN to connect as-if you are within the UCLouvain network? Check [how to use UCLouvain VPN here](https://intranet.uclouvain.be/fr/myucl/services-informatiques/vpn.html) 
+
 ### How do I know if there is HD space on the computer?
 
 run `du -h` on a terminal, volumes of interests are:
 
-- `tmpfs`: HHD for archive usage
+- `tmpfs`: HDD for archive usage
 - `/dev/nvme0n1p2`: SSD on which the OS is istalled and operting for day by day use.
 - `/dev/nvme1n1p1`: avoid using this one, it will become a back-up fo `/dev/nvme1n1p2` (RAID1)
 
@@ -40,7 +48,7 @@ tmpfs           6,3G  2,5M  6,3G   1% /run/user/1005
 tmpfs           6,3G   88K  6,3G   1% /run/user/127
 ```
 
-### How do I know if someelse is using part or all the cpus/RAM?
+### How do I know if someone else is using part or all the cpus/RAM?
 
 run `htop` on the terminal, it is a "graphic" interface displaying live command running and by who, each cpu usage, and RAM usage.
 
