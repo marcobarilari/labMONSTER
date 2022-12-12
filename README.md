@@ -17,18 +17,18 @@ It has two main Volumes:
 ## Table of content
 
 - [FAQ](#FAQ)
-  * [How can I connect remotely?](#How can I connect remotely?)
-  * [I can't connect remotely](#I can't connect remotely)
-  * [How do I know if there is HD space on the computer?](#How do I know if there is HD space on the computer?)
-  * [How do I know if someone else is using part or all the cpus/RAM?](#How do I know if someone else is using part or all the cpus/RAM?) 
-  * [I run a command in remote and closed the connection and it seems that the command was quit](#I run a command in remote and closed the connection and it seems that the command was quit)
-  * [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?)
+  * [How can I connect remotely?](#How-can-I-connect-remotely?)
+  * [I can't connect remotely](#I-can't-connect-remotely)
+  * [How do I know if there is HD space on the computer?](#How-do-I-know-if-there-is-HD-space-on-the-computer?)
+  * [How do I know if someone else is using part or all the cpus/RAM?](#How-do-I-know-if-someone-else-is-using-part-or-all-the-cpus/RAM?) 
+  * [I run a command in remote and closed the connection and it seems that the command was quit](#I-run-a-command-in-remote-and-closed-the-connection-and-it-seems-that-the-command-was-quit)
+  * [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#How-do-I-exchange-files-from-somewhere-to-the-MONSTER-and-back-(especially-if-working-remotely)?)
 - [Specs](#Specs)
-- [List installed software](#List installed software)
-  * [Installed with `sudo snap install ***`](#Installed with `sudo snap install ***`)
-  * [Installed with `sudo apt-get ***`](#Installed with `sudo apt-get ***`)
-  * [Installed manually](#Installed manually)
-- [To do](#To do)
+- [List installed software](#List-installed-software)
+  * [Installed with `sudo snap install ***`](#Installed-with-`sudo-snap-install-***`)
+  * [Installed with `sudo apt-get ***`](#Installed-with-`sudo-apt-get-***`)
+  * [Installed manually](#Installed-manually)
+- [To do](#To-do)
 
 
 ## FAQ 
