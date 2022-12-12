@@ -22,7 +22,7 @@ Ask Marco
 
 ### I can't connect remotely
 
-Are you in the UCLouvain network or using aVPN to connect as-if you are within the UCLouvain network? Check [how to use UCLouvain VPN here](https://intranet.uclouvain.be/fr/myucl/services-informatiques/vpn.html) 
+Are you in the UCLouvain network or using a VPN to connect as-if you are within the UCLouvain network? Check [how to use UCLouvain VPN here](https://intranet.uclouvain.be/fr/myucl/services-informatiques/vpn.html) 
 
 ### How do I know if there is HD space on the computer?
 
@@ -56,7 +56,7 @@ run `htop` on the terminal, it is a "graphic" interface displaying live command 
 
 Did you use `screen`? Check the guide [SSH-tips](SSH-tips.md)
 
-### How do I exchange files from somewhere to the MONSTER and back (especially if working remotely?)?
+### How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?
 
 Please use Datalad and GIN. _Why?_ Because it is easy for you to drop files and free up space since this machine is a crunch machine and not a data archive machine. BUT... If you are in a rush, check [SSH-tips](SSH-tips.md) on how to use `scp` command.
 
