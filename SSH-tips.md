@@ -32,5 +32,5 @@
 - move around a directory recursively (in the example, from the labMonster to local computer)
 
 ```bash
-scp -r user@ssh.example.com:/path/to/remote/source /path/to/local/destination
+scp -r user@machine.ip.numbers:/path/to/remote/source /path/to/local/destination
 ```
