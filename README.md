@@ -8,9 +8,45 @@ Every user has their own user and has root priviledge
 
 It has two main Volumes:
 
-- ssd for daily use (1 TB + 1 TB) **for the moment, please do not use `DATA_SSD`**
+- ssd for daily use (1 TB + 1 TB) 
+  
+  :warning: **for the moment, please do not use `DATA_SSD`**
 
-- hd for storage (6TB + 2 TB RAID xxx)
+- hd for storage (6TB + 2 TB (should be) RAID 5)
+
+## FAQ 
+
+### How do I know if there is HD space on the computer?
+
+run `du -h` on a terminal, volumes of interests are:
+
+- `tmpfs`: HHD for archive usage
+- `/dev/nvme0n1p2`: SSD on which the OS is istalled and operting for day by day use.
+- `/dev/nvme1n1p1`: avoid using this one, it will become a back-up fo `/dev/nvme1n1p2` (RAID1)
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           6,3G  4,3M  6,3G   1% /run
+/dev/nvme0n1p2  938G  230G  661G  26% /
+tmpfs            32G  150M   32G   1% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+/dev/nvme1n1p1  938G   28K  891G   1% /mnt/91061732-7f0e-4c15-9251-185421ec948a
+/dev/nvme0n1p1  511M   31M  481M   6% /boot/efi
+tmpfs           6,3G  164K  6,3G   1% /run/user/1000
+tmpfs           6,3G  2,5M  6,3G   1% /run/user/1003
+tmpfs           6,3G  4,7M  6,3G   1% /run/user/1001
+tmpfs           6,3G  120K  6,3G   1% /run/user/1004
+tmpfs           6,3G  2,5M  6,3G   1% /run/user/1005
+tmpfs           6,3G   88K  6,3G   1% /run/user/127
+```
+
+### How do I know if someelse is using part or all the cpus/RAM?
+
+run `htop` on the terminal, it is a "graphic" interface displaying live command running and by who, each cpu usage, and RAM usage.
+
+### I run a command in remote and closed the connection and it seems that the command was quit.
+
+Did you use `screen`? Check the guide [SSH-tips](SSH-tips.md)
 
 ## Specs
 
