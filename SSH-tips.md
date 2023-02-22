@@ -27,7 +27,9 @@
  exit
  ```
 
-## Exchange files from and to remote
+## Exchange files from and to remote with `scp`
+
+To run it into a terminal not logged into the monster.
 
 - move around a directory recursively (in the example, from the labMonster to local computer)
 
