@@ -149,7 +149,19 @@ TO CHECK if available for all users (tools eg spm12 should be installed by each 
 - open matlab gui using `/usr/local/MATLAB/R2017a/bin/matlab` in the terminal, to be faster add an aliasia in the `~/.bashrc` file
 
 ```bash
-alias matlab=/usr/local/MATLAB/R2017a/bin/matlab
+alias matlab2017=/usr/local/MATLAB/R2017a/bin/matlab
+```
+
+#### MATLAB 2018a
+
+TO CHECK if available for all users (tools eg spm12 should be installed by each user)
+
+[ TIPS :bulb: ]
+
+- open matlab gui using `/usr/local/MATLAB/R2018a/bin/matlab` in the terminal, to be faster add an aliasia in the `~/.bashrc` file
+
+```bash
+alias matlab2018=/usr/local/MATLAB/R2018a/bin/matlab
 ```
 
 #### AFNI
