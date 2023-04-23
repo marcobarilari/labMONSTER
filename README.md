@@ -43,7 +43,7 @@ Are you in the UCLouvain network or using a VPN to connect as-if you are within 
 
 ### How do I know if there is HD space on the computer?
 
-run `du -h` on a terminal, volumes of interests are:
+run `df -h` on a terminal, volumes of interests are:
 
 - `tmpfs`: HDD for archive usage
 - `/dev/nvme0n1p2`: SSD on which the OS is istalled and operting for day by day use.
