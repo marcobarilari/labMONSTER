@@ -200,7 +200,7 @@ available for all users
 - set up freesurfer by adding this in `~/.bashrc` and then take care to have license somewhere
 
 ```bash
-export FREESURFER_HOME=/usr/local/freesurfer/7.3.2/
+export FREESURFER_HOME=/usr/local/freesurfer/7.3.2
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 ```
 #### itksanp
