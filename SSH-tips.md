@@ -1,3 +1,9 @@
+## get IP of the labMonster
+
+```bash
+curl http://myip.dnsomatic.com
+```
+
 ## Using `screen` to run commands/script on the back ground
 
 ### basics
@@ -48,7 +54,9 @@ echo $STY
 
 > `ctrl` + `a` then `?`
 
-## Exchange files from and to remote
+## Exchange files from and to labMonster
+
+### `scp` command
 
 - move around a directory recursively (in the example, from the labMonster to local computer)
 
