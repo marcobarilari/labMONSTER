@@ -17,7 +17,7 @@ It has two main Volumes:
 ## Table of content
 
 - [FAQ](#FAQ)
-  * [How can I connect remotely?](#How-can-I-connect-remotely?)
+  * [How can I connect remotely?](#How-can-I-connect-remotely-?)
   * [I can't connect remotely](#I-can't-connect-remotely)
   * [How do I know if there is HD space on the computer?](#How-do-I-know-if-there-is-HD-space-on-the-computer?)
   * [How do I know if someone else is using part or all the cpus/RAM?](#How-do-I-know-if-someone-else-is-using-part-or-all-the-cpus/RAM?) 
