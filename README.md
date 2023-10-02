@@ -23,6 +23,7 @@ It has two main Volumes:
   * [How do I know if someone else is using part or all the cpus/RAM?](#How-do-I-know-if-someone-else-is-using-part-or-all-the-cpus/RAM?) 
   * [I run a command in remote and closed the connection and it seems that the command was quit](#I-run-a-command-in-remote-and-closed-the-connection-and-it-seems-that-the-command-was-quit)
   * [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#How-do-I-exchange-files-from-somewhere-to-the-MONSTER-and-back-(especially-if-working-remotely)?)
+  * [Machine is stuck when switching user with blinking cursor](#Machine-is-stuck-when-switching-user-with-blinking-cursor)
 - [Specs](#Specs)
 - [List installed software](#List-installed-software)
   * [Installed with `sudo snap install ***`](#Installed-with-`sudo-snap-install-***`)
@@ -76,6 +77,10 @@ Did you use `screen`? Check the guide [SSH-tips](SSH-tips.md)
 ### How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?
 
 Please use Datalad and GIN. _Why?_ Because it is easy for you to drop files and free up space since this machine is a crunch machine and not a data archive machine. BUT... If you are in a rush, check [SSH-tips](SSH-tips.md) on how to use `scp` command.
+
+### Machine is stuck when switching user with blinking cursor
+
+use `Ctrl` + `Alt` + `F2`
 
 ## Specs
 
