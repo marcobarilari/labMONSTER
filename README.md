@@ -16,21 +16,48 @@ It has two main Volumes:
 
 ## Table of content
 
-- [FAQ](#FAQ)
-  * [How can I connect remotely?](#How-can-I-connect-remotely-?)
-  * [I can't connect remotely](#I-can't-connect-remotely)
-  * [How do I know if there is HD space on the computer?](#How-do-I-know-if-there-is-HD-space-on-the-computer?)
-  * [How do I know if someone else is using part or all the cpus/RAM?](#How-do-I-know-if-someone-else-is-using-part-or-all-the-cpus/RAM?) 
-  * [I run a command in remote and closed the connection and it seems that the command was quit](#I-run-a-command-in-remote-and-closed-the-connection-and-it-seems-that-the-command-was-quit)
-  * [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#How-do-I-exchange-files-from-somewhere-to-the-MONSTER-and-back-(especially-if-working-remotely)?)
-  * [Machine is stuck when switching user with blinking cursor](#Machine-is-stuck-when-switching-user-with-blinking-cursor)
-- [Specs](#Specs)
-- [List installed software](#List-installed-software)
-  * [Installed with `sudo snap install ***`](#Installed-with-`sudo-snap-install-***`)
-  * [Installed with `sudo apt-get ***`](#Installed-with-`sudo-apt-get-***`)
-  * [Installed manually](#Installed-manually)
-- [To do](#To-do)
+- [labMONSTER](#labmonster)
+  - [Table of content](#table-of-content)
+  - [Best practices](#best-practices)
+  - [New user](#new-user)
+  - [FAQ](#faq)
+    - [How can I connect remotely?](#how-can-i-connect-remotely)
+    - [I can't connect remotely](#i-cant-connect-remotely)
+    - [How do I know if there is HD space on the computer?](#how-do-i-know-if-there-is-hd-space-on-the-computer)
+    - [How do I know if someone else is using part or all the cpus/RAM?](#how-do-i-know-if-someone-else-is-using-part-or-all-the-cpusram)
+    - [I run a command in remote and closed the connection and it seems that the command was quit](#i-run-a-command-in-remote-and-closed-the-connection-and-it-seems-that-the-command-was-quit)
+    - [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#how-do-i-exchange-files-from-somewhere-to-the-monster-and-back-especially-if-working-remotely)
+    - [Machine is stuck when switching user with blinking cursor](#machine-is-stuck-when-switching-user-with-blinking-cursor)
+  - [Specs](#specs)
+  - [List installed software](#list-installed-software)
+    - [Installed with `sudo snap install ***`](#installed-with-sudo-snap-install-)
+    - [Installed with `sudo apt-get ***`](#installed-with-sudo-apt-get-)
+    - [Installed manually](#installed-manually)
+      - [FSL](#fsl)
+      - [MATLAB 2017a](#matlab-2017a)
+      - [MATLAB 2018a](#matlab-2018a)
+      - [AFNI](#afni)
+      - [freesurfer](#freesurfer)
+      - [itksanp](#itksanp)
+    - [to do](#to-do)
 
+## Best practices
+
+- Free up space asap
+- Delete your user when you know you will not use the monster anymore
+- Book screen and/or cpu time on the calendar `cpp : monster`
+- The monster is a common space so contribute to make it better by sharing issues/solution via this documentation
+- If you are running massive computation speak with other user
+- For your cyber sicurety, better not leaving logged sensitive websites eg emails, google/safari (all your passwords are saved there!!!) etc.
+- Consider to share your user password with someone else in the lab so easier to deal woth your use if you are not aroudn a and you forgot to back up or delete your user
+- After a year of unused user, it will be deleted automatically
+- If you have problems, you need to install softwares or anything else you are not sure about, open an issue [here](https://github.com/cpp-lln-lab/labMONSTER/issues/new/choose) or ask the current monster maintaner (at the moment is @marcobarilari)
+  
+## New user 
+
+1. Read these docs and ask question/open issue if something is not clear
+2. Ask a sudo user to create your user
+3. Enjoy and improve others experience by imporoving this documentation with your experience
 
 ## FAQ 
 
