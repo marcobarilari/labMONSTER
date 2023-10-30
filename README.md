@@ -44,6 +44,7 @@ It has two main Volumes:
 ## Best practices
 
 - Free up space asap
+- Can you run the analyses you intend to perform on the UCLouvain cluster (e.g. fmriPrep, mriqc, anything that can be run on Octave)? If yes, then try to move it there.
 - Delete your user when you know you will not use the monster anymore
 - Book screen and/or cpu time on the calendar `cpp : monster`
 - The monster is a common space so contribute to make it better by sharing issues/solution via this documentation
