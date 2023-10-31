@@ -199,7 +199,7 @@ alias matlab2018=/usr/local/MATLAB/R2018a/bin/matlab
 
 - how to run matlab script the lazy way:
 
-1. write up a bash function in eg `~/.my-func` named `matlabrun.sh`
+1. Write down a bash function in eg `~/.my-func` named `matlabrun.sh`
 
 ```bash
 
