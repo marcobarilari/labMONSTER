@@ -16,28 +16,30 @@ It has two main Volumes:
 
 ## Table of content
 
-- [Best practices](#best-practices)
-- [New user](#new-user)
-- [FAQ](#faq)
-  - [How can I connect remotely?](#how-can-i-connect-remotely)
-  - [I can't connect remotely](#i-cant-connect-remotely)
-  - [How do I know if there is HD space on the computer?](#how-do-i-know-if-there-is-hd-space-on-the-computer)
-  - [How do I know if someone else is using part or all the cpus/RAM?](#how-do-i-know-if-someone-else-is-using-part-or-all-the-cpusram)
-  - [I run a command in remote and closed the connection and it seems that the command was quit](#i-run-a-command-in-remote-and-closed-the-connection-and-it-seems-that-the-command-was-quit)
-  - [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#how-do-i-exchange-files-from-somewhere-to-the-monster-and-back-especially-if-working-remotely)
-  - [Machine is stuck when switching user with blinking cursor](#machine-is-stuck-when-switching-user-with-blinking-cursor)
-- [Specs](#specs)
-- [List installed software](#list-installed-software)
-  - [Installed with `sudo snap install ***`](#installed-with-sudo-snap-install-)
-  - [Installed with `sudo apt-get ***`](#installed-with-sudo-apt-get-)
-  - [Installed manually](#installed-manually)
-    - [FSL](#fsl)
-    - [MATLAB 2017a](#matlab-2017a)
-    - [MATLAB 2018a](#matlab-2018a)
-    - [AFNI](#afni)
-    - [freesurfer](#freesurfer)
-    - [itksanp](#itksanp)
-  - [to do](#to-do)
+- [labMONSTER](#labmonster)
+  - [Table of content](#table-of-content)
+  - [Best practices](#best-practices)
+  - [New user](#new-user)
+  - [FAQ](#faq)
+    - [How can I connect remotely?](#how-can-i-connect-remotely)
+    - [I can't connect remotely](#i-cant-connect-remotely)
+    - [How do I know if there is HD space on the computer?](#how-do-i-know-if-there-is-hd-space-on-the-computer)
+    - [How do I know if someone else is using part or all the cpus/RAM?](#how-do-i-know-if-someone-else-is-using-part-or-all-the-cpusram)
+    - [I run a command in remote and closed the connection and it seems that the command was quit](#i-run-a-command-in-remote-and-closed-the-connection-and-it-seems-that-the-command-was-quit)
+    - [How do I exchange files from somewhere to the MONSTER and back (especially if working remotely)?](#how-do-i-exchange-files-from-somewhere-to-the-monster-and-back-especially-if-working-remotely)
+    - [Machine is stuck when switching user with blinking cursor](#machine-is-stuck-when-switching-user-with-blinking-cursor)
+  - [Specs](#specs)
+  - [List installed software](#list-installed-software)
+    - [Installed with `sudo snap install ***`](#installed-with-sudo-snap-install-)
+    - [Installed with `sudo apt-get ***`](#installed-with-sudo-apt-get-)
+    - [Installed manually](#installed-manually)
+      - [FSL](#fsl)
+      - [MATLAB 2017a](#matlab-2017a)
+      - [MATLAB 2018a](#matlab-2018a)
+      - [AFNI](#afni)
+      - [freesurfer](#freesurfer)
+      - [itksanp](#itksanp)
+    - [to do](#to-do)
 
 ## Best practices
 
@@ -193,6 +195,36 @@ TO CHECK if available for all users (tools eg spm12 should be installed by each 
 
 ```bash
 alias matlab2018=/usr/local/MATLAB/R2018a/bin/matlab
+```
+
+- how to run matlab script the lazy way:
+
+1. write up a bash function in eg `~/.my-func` named `matlabrun.sh`
+
+```bash
+
+#!/bin/bash
+
+#matlabrun function 
+
+matlabrun () {
+
+    script_path=$1
+
+    matlab -nodisplay -nosplash -nodesktop -r "run('"${script_path}"');"
+
+}
+
+```
+
+where `matlab` here is an alias for `/usr/local/MATLAB/R2018a/bin/matlab`
+
+2. Run or add `source ~/.my-func/matlabrun.sh` to either `~/.bashrc` `~/.bash_profile` or `~/.zrsrc` depending on your set up environment
+
+3. Usage in a terminal:
+
+```bash
+matlab path/to/script.m
 ```
 
 #### AFNI
