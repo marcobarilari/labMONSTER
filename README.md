@@ -36,6 +36,7 @@ It has two main Volumes:
       - [FSL](#fsl)
       - [MATLAB 2017a](#matlab-2017a)
       - [MATLAB 2018a](#matlab-2018a)
+      - [SPM12](#spm12)
       - [AFNI](#afni)
       - [freesurfer](#freesurfer)
       - [itksanp](#itksanp)
@@ -175,8 +176,6 @@ export FSLDIR PATH
 
 #### MATLAB 2017a
 
-TO CHECK if available for all users (tools eg spm12 should be installed by each user)
-
 [ TIPS :bulb: ]
 
 - open matlab gui using `/usr/local/MATLAB/R2017a/bin/matlab` in the terminal, to be faster add an aliasia in the `~/.bashrc` file
@@ -186,8 +185,6 @@ alias matlab2017=/usr/local/MATLAB/R2017a/bin/matlab
 ```
 
 #### MATLAB 2018a
-
-TO CHECK if available for all users (tools eg spm12 should be installed by each user)
 
 [ TIPS :bulb: ]
 
@@ -226,6 +223,21 @@ where `matlab` here is an alias for `/usr/local/MATLAB/R2018a/bin/matlab`
 ```bash
 matlab path/to/script.m
 ```
+
+#### SPM12
+
+each user has to install it indipendently
+
+[ TIPS :bulb: ]
+
+The gui might not work properly, solution: add this snippet to you `.zshrc` / `.bashrc` / etc.
+
+```bash
+# make sure spm gui works
+export SPM_HTML_BROWSER=0
+```
+
+
 
 #### AFNI
 
